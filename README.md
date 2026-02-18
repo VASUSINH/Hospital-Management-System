@@ -47,35 +47,10 @@ System Features
 • Easy to extend and maintain
 
 
+<img width="657" height="717" alt="image" src="https://github.com/user-attachments/assets/79499515-f1da-42b7-8ca7-c4c2a3a16c9d" />
 
 
 
-PROJECT ARCHITECTURE :-
-Hospital Management System
-|
-|-- src
-|   |
-|   |-- com.hms.main
-|   |   |-- Main.java
-|   |
-|   |-- com.hms.config
-|   |   |-- dbConnection.java
-|   |
-|   |-- com.hms.dao
-|   |   |-- DoctorDAO.java
-|   |   |-- PatientDAO.java
-|   |   |-- AppointmentDAO.java
-|   |
-|   |-- com.hms.model
-|       |-- Doctor.java
-|       |-- Patient.java
-|       |-- Appointment.java
-|
-|-- lib
-|   |-- mysql-connector-j.jar
-|
-|-- README.md
-|-- .gitignore
 
 
 
