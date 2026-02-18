@@ -46,3 +46,36 @@ System Features
 • Modular and readable code
 • Easy to extend and maintain
 
+
+
+
+
+PROJECT ARCHITECTURE :-
+Hospital Management System
+|
+|-- src
+|   |
+|   |-- com.hms.main
+|   |   |-- Main.java
+|   |
+|   |-- com.hms.config
+|   |   |-- dbConnection.java
+|   |
+|   |-- com.hms.dao
+|   |   |-- DoctorDAO.java
+|   |   |-- PatientDAO.java
+|   |   |-- AppointmentDAO.java
+|   |
+|   |-- com.hms.model
+|       |-- Doctor.java
+|       |-- Patient.java
+|       |-- Appointment.java
+|
+|-- lib
+|   |-- mysql-connector-j.jar
+|
+|-- README.md
+|-- .gitignore
+
+
+
